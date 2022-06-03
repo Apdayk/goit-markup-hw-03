@@ -6,41 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Портфолио</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Портфолио</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="nav-header">
-      <nav>
-        <a class="link" href="/"
-          ><span lang="en" class="logo"
-            ><span class="logo-web">Web</span><span class="logo-studio">Studio</span></span
-          ></a
-        >
-        <ul class="nav-list list">
+      <div class="header-box container">
+        <nav>
+          <a class="link" href="/"
+            ><span lang="en" class="logo"
+              ><span class="logo-web">Web</span><span class="logo-studio">Studio</span></span
+            ></a
+          >
+          <ul class="nav-list list">
+            <li>
+              <a class="nav-page-studio link" href="/">Студия</a>
+            </li>
+            <li>
+              <a class="nav-page-portfolio current link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a class="nav-page-contacts link" href="/">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-contacts list">
           <li>
-            <a class="nav-page-studio link" href="/">Студия</a>
+            <a class="contacts-item-meil link" href="info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a class="nav-page-portfolio current link" href="portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="nav-page-contacts link" href="/">Контакты</a>
+            <a class="contacts-item-tel link" href="+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="list-contacts list">
-        <li>
-          <a class="contacts-item-meil link" href="info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="contacts-item-tel link" href="+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- <h1 class="gallery-title">Галерея проектов</h1> -->
@@ -139,18 +145,20 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="link" href="/"
-        ><span lang="en" class="footer-logo"
-          ><span class="footer-web">Web</span><span class="footer-studio">Studio</span></span
-        ></a
-      >
-      <address>
-        <ul class="footer-list list">
-          <li class="footer-address">г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a class="footer-meil link" href="meilto:info@example.com">info@example.com</a></li>
-          <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="footer-box container">
+        <a class="link" href="/"
+          ><span lang="en" class="footer-logo"
+            ><span class="footer-web">Web</span><span class="footer-studio">Studio</span></span
+          ></a
+        >
+        <address>
+          <ul class="footer-list list">
+            <li class="footer-address">г. Киев, пр-т Леси Украинки, 26</li>
+            <li><a class="footer-meil link" href="meilto:info@example.com">info@example.com</a></li>
+            <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
