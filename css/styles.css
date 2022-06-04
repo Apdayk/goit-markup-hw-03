@@ -337,7 +337,11 @@ p {
 .filter-list-btn {
   display: flex;
   padding-bottom: 50px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+
+.button-item + .button-item {
+  margin-left: 8px;
 }
 
 .filter-btn:hover,
