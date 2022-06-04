@@ -69,6 +69,7 @@ p {
   display: flex;
   align-items: center;
   margin-top: 0;
+  border-bottom-style: ;
 }
 
 .nav-list {
@@ -92,7 +93,9 @@ p {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
-
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
   background: var(--brand-color_6);
 }
 
