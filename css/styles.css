@@ -387,6 +387,7 @@ p {
 
 .gallery-project-title {
   padding-top: 20px;
+  padding-left: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -396,6 +397,7 @@ p {
 
 .gallery-project-text {
   padding-top: 4px;
+  padding-left: 24px;
 
   font-size: 16px;
   line-height: 1.88;
