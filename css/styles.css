@@ -380,7 +380,6 @@ p {
 
 .gallery-item {
   width: 370px;
-  height: 404px;
 }
 
 .gallery-item:nth-child(-n + 6) {
@@ -389,12 +388,20 @@ p {
 
 .gallery-img {
   display: block;
+  with: 100%;
+}
+
+.gallery-text-box {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .gallery-project-title {
-  padding-top: 20px;
-  padding-left: 24px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -402,8 +409,7 @@ p {
 }
 
 .gallery-project-text {
-  padding-top: 4px;
-  padding-left: 24px;
+  margin-top: 4px;
 
   font-size: 16px;
   line-height: 1.88;
