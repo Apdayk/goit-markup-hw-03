@@ -21,9 +21,6 @@ body {
 
 .section {
   padding: 94px 0;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Сброс стилей */
@@ -89,7 +86,6 @@ p {
 }
 
 .nav-header {
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   border-bottom-width: 1px;
@@ -259,6 +255,12 @@ p {
   justify-content: space-between;
 }
 
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  text-align: center;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -274,19 +276,17 @@ p {
 /* Подвал */
 
 .footer {
-  height: 252px;
-  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin: auto;
   background-color: var(--brand-color_1);
 }
 
 .footer-box {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
   flex-direction: column;
-  height: 252px;
 }
+
 .footer-link {
   font-family: 'Raleway';
   font-weight: 700;
@@ -302,7 +302,7 @@ p {
 }
 
 .footer-address {
-  padding-top: 20px;
+  margin-top: 20px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -312,7 +312,7 @@ p {
 
 .footer-mail {
   display: block;
-  padding-top: 9px;
+  margin-top: 9px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -322,7 +322,7 @@ p {
 
 .footer-tel {
   display: block;
-  padding-top: 9px;
+  margin-top: 9px;
 
   font-size: 14px;
   line-height: 1.71;
@@ -331,15 +331,11 @@ p {
 }
 
 /* -------------------Портфолио------------------- */
-.button-box {
-  margin-left: 495px;
-  margin-right: 495px;
-}
 
 .filter-list-btn {
   display: flex;
   padding-bottom: 50px;
-  /* justify-content: space-between; */
+  justify-content: center;
 }
 
 .button-item + .button-item {
@@ -368,10 +364,7 @@ p {
 }
 
 /* Галерея Портфолио */
-.gallery-list-box {
-  margin-left: 215px;
-  margin-right: 215px;
-}
+
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
