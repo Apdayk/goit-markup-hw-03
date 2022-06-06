@@ -149,15 +149,13 @@ p {
 
 /* Заголовок H1 */
 
-.hero-box {
-  padding: 200px 0;
-}
 .hero {
   background-color: var(--brand-color_1);
 }
 
 .hero-section-title {
   width: 696px;
+  padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
 
@@ -223,7 +221,7 @@ p {
 /* Чем мы занимаемся */
 
 .products-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -242,7 +240,7 @@ p {
 }
 
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -258,7 +256,6 @@ p {
 .team-box {
   padding-top: 30px;
   padding-bottom: 30px;
-
   text-align: center;
 }
 .team-name {
@@ -337,7 +334,7 @@ p {
 
 .filter-list-btn {
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -371,15 +368,12 @@ p {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: -15px;
 }
 
 .gallery-item {
-  width: 370px;
-}
-
-.gallery-item:nth-child(-n + 6) {
-  margin-bottom: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 15px;
 }
 
 .gallery-img {
