@@ -150,12 +150,13 @@ p {
 /* Заголовок H1 */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--brand-color_1);
 }
 
 .hero-section-title {
   width: 696px;
-  padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
 
@@ -253,7 +254,7 @@ p {
   justify-content: space-between;
 }
 
-.team-box {
+.team-text-box {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
